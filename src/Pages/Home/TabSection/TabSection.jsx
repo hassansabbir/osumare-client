@@ -7,7 +7,7 @@ const TabSection = () => {
 
   const tabs = [
     {
-      label: "Tab 1",
+      label: "Awards",
       content: (
         <div>
           <img
@@ -19,7 +19,7 @@ const TabSection = () => {
       ),
     },
     {
-      label: "Tab 2",
+      label: "Process",
       content: (
         <div>
           <video
@@ -31,10 +31,14 @@ const TabSection = () => {
       ),
     },
     {
-      label: "Tab 3",
+      label: "Work",
       content: (
         <div>
-          <img className="rounded-3xl w-full h-[610px]" src={awardImg} alt="" />
+          <img
+            className="rounded-3xl  w-full h-[610px]"
+            src={awardImg}
+            alt=""
+          />
         </div>
       ),
     },
@@ -56,7 +60,7 @@ const TabSection = () => {
               onClick={() => handleTabClick(index)}
               className={`cursor-pointer btn w-[200px] rounded-3xl py-3 ${
                 activeTab === index
-                  ? "bg-blue-500 w-[300px] text-white"
+                  ? "bg-blue-500 w-[250px] text-white"
                   : "hover:bg-gray-300"
               }`}
             >

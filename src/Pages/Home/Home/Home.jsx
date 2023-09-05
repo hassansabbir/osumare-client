@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import ClientSection from "../ClientSection/ClientSection";
 import Services from "../Services/Services";
 import TabSection from "../TabSection/TabSection";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <Services />
       <TabSection />
+      <ClientSection />
     </div>
   );
 };

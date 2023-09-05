@@ -1,6 +1,9 @@
+import bannerImg from "../../../assets/Strips.png";
+import "./Banner.css";
+
 const Banner = () => {
   return (
-    <div className="pt-[217px] h-[900px] border-b-2 mb-14 ps-[80px]">
+    <div className="pt-[217px] banner-part h-[900px] border-b-2 mb-14 ps-[80px]">
       <p className="text-xs font-bold w-[220px]">
         <span className="text-[#0078FF]">$100M+</span> revenue Generated
       </p>

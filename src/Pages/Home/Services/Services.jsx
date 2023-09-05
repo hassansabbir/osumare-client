@@ -18,7 +18,7 @@ const Services = () => {
       {/* fliping cards start from here */}
 
       <div className="mt-16 flex justify-between">
-        <div className="group h-[252px] w-[372px] bg-[#e9eef5] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
+        <div className="group h-[252px] w-[372px] bg-[#F8F6F9] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
           <div className="relative h-full w-full rounded-xl px-4 py-6 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-hover:delay-[0.5s] ">
             <div className="absolute flex flex-col items-center justify-center inset-0">
               <img src={brandingIcon} alt="" />
@@ -36,7 +36,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="group h-[252px] w-[372px] bg-[#e2e6eb] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
+        <div className="group h-[252px] w-[372px] bg-[#F8F6F9] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
           <div className="relative h-full w-full rounded-xl px-4 py-6 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-hover:delay-[0.5s] ">
             <div className="absolute flex flex-col items-center justify-center inset-0">
               <img src={brandingIcon} alt="" />
@@ -54,7 +54,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="group h-[252px] w-[372px] bg-[#e2e6eb] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
+        <div className="group h-[252px] w-[372px] bg-[#F8F6F9] hover:bg-white hover:shadow-2xl hover:shadow-blue-200 rounded-3xl border border-slate-200 [perspective:1000px]">
           <div className="relative h-full w-full rounded-xl px-4 py-6 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-hover:delay-[0.5s] ">
             <div className="absolute flex flex-col items-center justify-center inset-0">
               <img src={brandingIcon} alt="" />
